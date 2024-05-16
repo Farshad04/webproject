@@ -1,0 +1,106 @@
+#firstH { padding: 20px;
+    margin: 0;
+    font-family:  monospace;}
+
+#firstH {
+position: relative;  
+font-size: clamp(50px,7vw,100px);
+letter-spacing: 15px;
+color: #0e3742;
+text-align: center;
+text-transform: uppercase;
+-webkit-box-reflect:below 1px liner-gradient(transparet,rgba(0, 0, 0, 0.267)) ;
+line-height: 0.70em;
+outline: none;
+animation:animate 5s linear infinite ;
+-webkit-animation: animate 5s linear infinite;
+}
+
+    ul { list-style: none;
+        margin: 0;
+    
+    background-color: #22438c;} 
+
+    ul li {display:inline-block;
+    position: relative;
+    }
+
+    ul li  a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none; /*xate bn linke*/
+    text-align: center;
+    font-size: 24px;/* font*/
+    }
+    ul li a:hover{
+        background: #112c66;
+        
+    }
+
+    ul li:hover .dropdown {/*mshkila lera bu chunka ma a hover krd bu a la naw li taby li hover kayn*/
+        display: block ;}
+    
+ ul li ul.dropdown {overflow: scroll;
+        width: 120%;/* waxty abito size chand by*/
+  
+        height: 500%;
+    background: #22438c;
+    position: absolute;/*wata lasarek*/
+    z-index: 999;
+    display: none;/* lera wayakat dyar nabit*/
+    }
+div{background-color: #22438c;}
+
+
+@keyframes animate{
+    0%,18%,20%,50.1%,60.2%,80%,90.1%,92.5%{color: #22438c;/*range ekam ja*/
+    text-shadow: none;}
+18.1%,20.1%,30%,50%,60%,80.1%,90%,93%,100%{
+color : white;
+text-shadow: 0 0 10px #03bcf4,0 0 20px #03bcf4,0 0 40px #03bcf4,0 0 90px #03bcf4,0 0 160px #03bcf4;}
+}
+body{    background-image: url(tishkbk.jpg);
+background-size: 100%;  font-family: Arial, sans-serif;
+margin: 0;
+
+}
+
+
+
+p ,li{ color: rgb(0, 0, 0);
+ list-style: none;
+ font-size: 18px;
+
+}
+
+
+h2 {
+    color: #5a0606;
+}
+
+footer {
+    background-color:#112c66;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2px;
+    background: rgba(255, 255, 255, 0.3);
+    margin-top: 7%;
+ padding: 5%; text-align: left;
+    backdrop-filter: blur(11px);border-radius: 5%;/*     xwary box*/
+    margin-bottom: 10%;
+}
+footer p{color: #fff;}
+
+
+
+
+

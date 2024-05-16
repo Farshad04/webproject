@@ -1,0 +1,63 @@
+
+
+*{padding: 15px;
+    text-decoration: none;
+  }
+  
+h1,h2{ color: white ; text-align: center;}
+ body{
+ background-color:#22438c;
+ background-image: url(premier-league-bk.png);
+ background-size: 100% 95%;
+
+}
+  
+  th { background-image: url(league-premier-th.jpg) ; 
+  padding: 14px;    color: rgb(255, 255, 255);
+  font-size: 28px;
+  background-size: 100% 95%;
+  
+
+  }
+  
+  
+  
+  .left-table {
+    float: left;
+    width: 45%; /* Adjust width as needed */
+    margin-right: 5%; /* Add some margin between tables */
+  }
+  
+  .right-table {
+    float: right;
+    width: 45%; /* Adjust width as needed */
+    margin-left: 5%; /* Add some margin between tables */
+  }
+  
+ 
+  #May{
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;}
+  
+  td{ background-color: #171945;
+     text-align: center;
+     padding: 10px;
+      border-bottom:solid 1px #f4f4f4;
+      border-top:solid 1px #22438c;
+    padding: 20px;
+    width: 6%;
+    font-size: 17px;
+    color: white; margin-right: 30px;
+    
+    background-size: 100% 95%;
+   
+  
+  }
+  span{ color: rgb(255, 255, 255);
+  padding: 1px;
+  
+  }
+  a{color: rgb(255, 255, 255); font-size: 18px;}
+  
+  

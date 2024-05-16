@@ -1,0 +1,92 @@
+body {
+  background-image: url(4k.avif);
+
+  background-size:cover ; /* aga 100% ish naka  bas awa taga fixe isha kat */
+  background-attachment: fixed;/*lo hnde waxty mine maiz akay full screen bit*/
+
+
+
+  background-repeat: no-repeat;
+  font-family: "MONTserra", sans-serif;
+  display: flex;/*aga awa nabit ena bne ish nakan*/
+  justify-content: center;/*ku lo lay rastu chap la nawande bit*/
+  align-items: center;/* ku la nawande bit lo sarew xware*/
+
+}
+
+h1 {
+    position: relative;  
+    font-size: clamp(50px,7vw,100px);
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-box-reflect:below 1px liner-gradient(transparet,rgba(255, 255, 255, 0.267)) ;
+    line-height: 0.70em;
+    outline: none;
+    animation:animate 5s linear infinite ;
+    -webkit-animation: animate 5s linear infinite;
+    }
+    @keyframes animate{
+        0%,18%,20%,50.1%,60.2%,80%,90.1%,92.5%{color: white;/*text*/
+        text-shadow: none;}
+    18.1%,20.1%,30%,50%,60%,80.1%,90%,93%,100%{
+    color : white;
+    text-shadow: 0 0 10px #FC466b,0 0 20px #FC466b,0 0 40px #FC466b,0 0 90px #FC466b,0 0 160px #FC466b;
+    }}
+
+.container {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 5%; /* Adjusted size for desktop */
+    border-radius: 5%;/*     xwary box*/
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 3% rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+.container h1 {
+    color: #fff;
+}
+
+
+
+form input[type="email"],
+form input[type="password"] {
+    padding-bottom: 3%;
+    padding: 1.5%;
+    margin: 2%;
+    border-radius: 5%; /* Adjusted size for desktop */
+    border: none;
+    background: rgba(255, 255, 255, 0.7);
+}
+#togglePassword{color: #000; }/* chaw */
+
+#password{  padding-bottom: 3%;
+    padding: 1.5%;/*waxte chawe leya day ku yak box bit*/
+    margin: 2%;
+    border-radius: 5%; /* Adjusted size for desktop */
+    border: none;
+    background: rgba(255, 255, 255, 0.7);}
+
+.signInButton {/*box sign*/
+    padding: 3% 6%;
+    margin-top: 2%;
+    border-radius: 5%;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form a {
+    color: #fff;/* forgot*/
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");

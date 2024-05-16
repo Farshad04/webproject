@@ -1,0 +1,116 @@
+#firstH { padding: 20px;
+    margin: 0;
+    font-family:  monospace;}
+
+#firstH {
+position: relative;  
+font-size: clamp(50px,7vw,100px);
+letter-spacing: 15px;
+color: #0e3742;
+text-align: center;
+text-transform: uppercase;
+-webkit-box-reflect:below 1px liner-gradient(transparet,rgba(0, 0, 0, 0.267)) ;
+line-height: 0.70em;
+outline: none;
+animation:animate 5s linear infinite ;
+-webkit-animation: animate 5s linear infinite;
+}
+
+    ul { list-style: none;
+        margin: 0;
+    
+    background-color: #22438c;} 
+
+    ul li {display:inline-block;
+    position: relative;
+    }
+
+    ul li  a {
+    display: block;
+    padding: 20px 25px;
+    color: #fff;
+    text-decoration: none; /*xate bn linke*/
+    text-align: center;
+    font-size: 24px;/* font*/
+    }
+    ul li a:hover{
+        background: #112c66;
+        
+    }
+
+    ul li:hover .dropdown {/*mshkila lera bu chunka ma a hover krd bu a la naw li taby li hover kayn*/
+        display: block ;}
+    
+ ul li ul.dropdown {overflow: scroll;
+        width: 120%;/* waxty abito size chand by*/
+  
+        height: 500%;
+    background: #22438c;
+    position: absolute;/*wata lasarek*/
+    z-index: 999;
+    display: none;/* lera wayakat dyar nabit*/
+    }
+div{background-color: #22438c;}
+
+
+@keyframes animate{
+    0%,18%,20%,50.1%,60.2%,80%,90.1%,92.5%{color: #22438c;/*range ekam ja*/
+    text-shadow: none;}
+18.1%,20.1%,30%,50%,60%,80.1%,90%,93%,100%{
+color : white;
+text-shadow: 0 0 10px #03bcf4,0 0 20px #03bcf4,0 0 40px #03bcf4,0 0 90px #03bcf4,0 0 160px #03bcf4;
+}}body{background-color: #03bcf4;
+    margin: 0;
+    padding: 0;}
+
+
+
+h1,span{ color: #ffffff;   font-size: 24px;
+
+margin-left: 1%;}
+.player-left{ width: 45%;  float: left; margin-left: 1%;
+margin-top: 2%; margin-bottom: 2%;  
+height: 400px;
+}
+ 
+  img{ width: 15%;
+    border-radius: 55%; }
+    .rsm1{ margin-left: 42%;}
+    .name{ text-align: center; }
+    .player-right{ width: 45%;   float: right; margin-right: 1%;
+        margin-bottom: 2%;
+        margin-top: 2%;  
+     height: 400px; }
+        
+          img{ width: 15%;
+            border-radius: 55%; }
+            .rsm1{ margin-left: 42%;}
+            .name{ text-align: center; }
+
+    .hh3 h3{text-align: left !important;  background-color: rgb(221, 221, 57); width: 10%; 
+color: white;
+border-radius: 15%;
+padding: 6px;
+ padding-left: 10px;
+padding-right: 10px;
+font-size: 20px;
+margin-left: 1%;
+}
+
+.hh2 h3{text-align: left !important;  background-color: rgb(60, 255, 60); width: 14%; 
+    color: white;
+    border-radius: 15%;
+    padding: 6px;
+     padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    margin-left: 1%;
+
+    }
+#Arsenal{ height: 100px;
+width: 20%;}
+#Fluminense{height: 90px;
+    width: 15%;}
+#ac{width: 20%;}
+#ol{width: 10%;}
+#reall{ width: 15%;}

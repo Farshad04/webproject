@@ -1,0 +1,56 @@
+
+
+*{padding: 15px;
+    text-decoration: none;
+  }
+  
+
+ body{background-image: url(bundsbk.jpg);
+  background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+  
+  th {background-color: #000000;
+  padding: 14px;    color: rgb(255, 255, 255);
+  font-size: 28px;
+
+  }
+  
+  .left-table {
+    float: left;
+    width: 45%; /* Adjust width as needed */
+    margin-right: 5%; /* Add some margin between tables */
+  }
+  
+  .right-table {
+    float: right;
+    width: 45%; /* Adjust width as needed */
+    margin-left: 5%; /* Add some margin between tables */
+  }
+  
+ 
+  #May{
+    font-weight: bold;
+  
+    font-size: 36px;
+  color: rgb(255, 255, 255);
+  text-align: center;}
+  td{ 
+     
+    word-spacing: 6px; 
+ 
+    padding: 20px;
+    font-size: 17px;
+    padding-left: 25%;
+   background-image: url(bbtd.jpg); 
+   
+  
+  }
+  span{ color: rgb(0, 0, 0);
+  padding: 15px;
+  
+  }
+  a{color: rgb(0, 0, 0); font-size: 18px;}
+  
+  

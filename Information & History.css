@@ -1,0 +1,95 @@
+#firstH{ padding: 20px;
+    margin: 0;
+    font-family:  monospace;}
+    
+    ul { list-style: none;
+        margin: 0;
+    background-color: #22438c;} 
+
+    ul li {display:inline-block;
+    position: relative;
+    }
+
+    ul li  a {
+    display: block;
+    padding: 20px 25px;
+    color: #fff;
+    text-decoration: none; /*xate bn linke*/
+    text-align: center;
+    font-size: 24px;
+    }
+    ul li a:hover{
+        background: #112c66;
+    }
+
+    ul li:hover .dropdown {/*mshkila lera bu chunka ma a hover krd bu a la naw li taby li hover kayn*/
+        display: block ;}
+    
+ ul li ul.dropdown {overflow: scroll;
+        width: 120%;/* waxty abito size chand by*/
+        height: 500%;
+    background: #22438c;
+    position: absolute;/*wata lasarek*/
+    z-index: 999;
+    display: none;/* lera wayakat dyar nabit*/
+    }
+div{background-color: #22438c;}
+#firstH {
+position: relative;  
+font-size: clamp(50px,7vw,100px);
+letter-spacing: 15px;
+color: #0e3742;
+text-align: center;
+text-transform: uppercase;
+-webkit-box-reflect:below 1px liner-gradient(transparet,rgba(0, 0, 0, 0.267)) ;
+line-height: 0.70em;
+outline: none;
+animation:animate 5s linear infinite ;
+-webkit-animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%,18%,20%,50.1%,60.2%,80%,90.1%,92.5%{color: #22438c;/*range ekam ja*/
+    text-shadow: none;}
+18.1%,20.1%,30%,50%,60%,80.1%,90%,93%,100%{
+color : white;
+text-shadow: 0 0 10px #03bcf4,0 0 20px #03bcf4,0 0 40px #03bcf4,0 0 90px #03bcf4,0 0 160px #03bcf4;
+}}
+body{background-color: #ffffff;
+    margin: 0;
+    padding: 0;}
+h1 { color: 22438c ; text-align: left;  margin-bottom: 30px; 
+font-size: 50px;
+}
+P { color: #000000; text-align: left;  font-size: 14px; width: 98%;  text-transform: uppercase;
+    line-height: 22px; padding-left: 15px;
+    outline: none;
+    margin-bottom: 70px;
+    font-family: monospace;
+font-weight: bold;
+word-spacing: 1px;
+
+
+}
+a{color: rgb(255, 85, 0); 
+}
+
+#ball{ width: 15%; 
+height: 150px; }
+
+legend{margin-bottom:25px ;
+    text-align: center;  font-size: 20px; background-color: #0e3742;
+color: #fff; padding: 15px;
+ border: solid  2px rgb(255, 255, 255);}
+  fieldset{border:none ;
+padding: 15px;
+} 
+  
+        table, th,td{ 
+             border: solid  5px black; background-color: #fff;
+   text-align: center;  padding: 10px; margin-left: 450px; width:55% ;   }
+    th{background-color:#0e3742;
+        color: #fff; }
+        #topt{text-align: center;
+        
+        font-size:50px;}
+        
